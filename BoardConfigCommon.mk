@@ -31,3 +31,12 @@ BOARD_CACHEIMAGE_PARTITION_SIZE := 576716800
 SOMC_CFG_SENSORS_PROXIMITY_APDS9702 := false
 
 DEVICE_RESOLUTION := 1920x1200
+
+#MultiROM config. MultiROM also uses parts of TWRP config
+MR_INPUT_TYPE := type_b
+MR_INIT_DEVICES := device/sony/pollux-common/multirom/init_devices.c
+MR_DPI := xhdpi
+MR_FSTAB := device/sony/fusion3-common/rootdir/twrp.fstab
+MR_USE_MROM_FSTAB := true
+MR_KEXEC_MEM_MIN := 0x85000000
+MR_SWITCH_TOUCH_XY := false
