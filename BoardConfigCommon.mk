@@ -36,6 +36,7 @@ DEVICE_RESOLUTION := 1920x1200
 MR_INPUT_TYPE := type_b
 MR_INIT_DEVICES := device/sony/pollux-common/multirom/init_devices.c
 MR_DPI := xhdpi
+MR_DPI_FONT := 340
 MR_FSTAB := device/sony/fusion3-common/rootdir/twrp.fstab
 MR_USE_MROM_FSTAB := true
 MR_KEXEC_MEM_MIN := 0x85000000
